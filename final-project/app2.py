@@ -18,7 +18,7 @@ def home_page():
     st.write("Discover critical insights and unlock the full potential of your data!")
 
     # Add an image (replace 'your_image.png' with your actual image file path)
-    st.image(os.path.join(os.getcwd(),'static','Blank board.png'))
+    
     # Navigation button
     if st.button("Get Started"):
         navigate_page("Upload Data")
